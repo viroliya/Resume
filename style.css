@@ -163,7 +163,8 @@ section {
     flex: 1 1 45rem;
     padding: 1rem;
     max-width: 395px;
-    ;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about .row .image img {
@@ -304,13 +305,7 @@ section {
     padding: 2rem;
     position: relative;
     margin: 5px;
-    min-width: 500px;
 
-}
-
-.review .swiper-wrapper {
-    display: flex;
-    justify-content: center;
 }
 
 .review .swiper-slide-box .fa-quote-right {
@@ -363,6 +358,8 @@ section {
     font-size: 20px;
     gap: 5px;
     margin-top: 10px;
+    flex-wrap: nowrap;
+    word-wrap: break-word;
 }
 
 .review .swiper-slide-box .contact a {
@@ -480,6 +477,10 @@ img {
         padding: 1.3rem;
         margin: 1.3rem;
         font-size: 2rem;
+    }
+    .about .row .content {
+        /* flex: 1 1 45rem; */
+        text-align: center;
     }
 
 }
